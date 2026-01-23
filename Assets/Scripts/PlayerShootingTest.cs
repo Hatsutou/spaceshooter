@@ -2,14 +2,23 @@ using UnityEngine;
 
 public class PlayerShootingTest : MonoBehaviour
 {
-    public GameObject bulletPrefab;
-
+    public GameObject bulletPrefabs;
+    public float shootingInterval;
+    private float lastBulletTime;
     void Update()
     {
-
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
-            Instantiate(bulletPrefab, transform.position, transform.rotation);
+            if (Time.time - lastBulletTime > shootingInterval)
+            {
+                ShootBullet();
+                lastBulletTime = Time.time;
+            }
         }
+    }
+
+    private void ShootBullet()
+    {
+        Instantiate(bulletPrefabs, transform.position, transform.rotation);
     }
 }

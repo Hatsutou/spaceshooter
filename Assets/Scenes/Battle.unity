@@ -438,8 +438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d748a9463b811fe488af0b7a908eb87f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 2356181620892183349, guid: 7ce18332fbbf3814ba48652eb55638c4,
+  bulletPrefabs: {fileID: 2356181620892183349, guid: 7ce18332fbbf3814ba48652eb55638c4,
     type: 3}
+  shootingInterval: 0.1
 --- !u!1001 &16245024111988058
 PrefabInstance:
   m_ObjectHideFlags: 0
