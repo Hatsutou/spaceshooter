@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 1498391710}
   - component: {fileID: 1498391711}
   - component: {fileID: 1498391712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Engine_01_Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 1523812272}
   - component: {fileID: 1523812274}
   - component: {fileID: 1523812275}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Short-Lazer-Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
