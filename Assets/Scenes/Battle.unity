@@ -905,7 +905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e1920ca23b02540b1319870c250fd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 1587261729604890, guid: af630373a146e8e46ac5ad9b1598eaba,
+    type: 3}
   defaultHealthPoint: 3
 --- !u!1 &1560011259
 GameObject:
