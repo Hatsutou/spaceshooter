@@ -177,3 +177,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 1280240331523082, guid: c1206863ad96bc148816eb5e364dee0b,
     type: 3}
+  defaultHealthPoint: 3
