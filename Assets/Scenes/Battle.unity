@@ -1306,6 +1306,7 @@ GameObject:
   - component: {fileID: 1523812277}
   - component: {fileID: 1523812276}
   - component: {fileID: 1523812278}
+  - component: {fileID: 1523812279}
   m_Layer: 6
   m_Name: Short-Lazer-Ship
   m_TagString: Untagged
@@ -1565,6 +1566,21 @@ MonoBehaviour:
   explosionPrefab: {fileID: 1587261729604890, guid: af630373a146e8e46ac5ad9b1598eaba,
     type: 3}
   defaultHealthPoint: 3
+--- !u!114 &1523812279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523812271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b61df63260287ad4483000a61b5ebb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverUI: {fileID: 185013522}
+  playerHealth: {fileID: 1523812278}
+  bgMusic: {fileID: 796643595}
 --- !u!1 &1560011259
 GameObject:
   m_ObjectHideFlags: 0
