@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BattleFlow : MonoBehaviour
 {
@@ -35,5 +36,7 @@ public class BattleFlow : MonoBehaviour
         bgMusic.SetActive(false);
         playerHealth.gameObject.SetActive(false);
     }
+
+    public void ReturnToMainMenu() => SceneManager.LoadScene("MainMenu");
     
 }
