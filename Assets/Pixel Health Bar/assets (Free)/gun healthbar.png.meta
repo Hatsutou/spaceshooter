@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: 80c6a1b10b0145749ba3d3979f15097d
+guid: 064ae00cdc1f9734ca8132384080a218
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1518315197876410104
-    second: no health_0
+      213: 2712025151829518351
+    second: gun healthbar_0
+  - first:
+      213: -675816337927123094
+    second: gun healthbar_1
+  - first:
+      213: 6685251921300454045
+    second: gun healthbar_2
+  - first:
+      213: 4748989876942377518
+    second: gun healthbar_3
+  - first:
+      213: -9063111991173466303
+    second: gun healthbar_4
+  - first:
+      213: -4006593235257880854
+    second: gun healthbar_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +141,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: no health_0
+      name: gun healthbar_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 122
-        height: 10
+        x: 4
+        y: 20
+        width: 121
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 1, w: 1}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 809ef753f5cddeae0800000000000000
-      internalID: -1518315197876410104
+      spriteID: f0829b4b18c03a520800000000000000
+      internalID: 2712025151829518351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun healthbar_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fc27c0f940f96f0800000000000000
+      internalID: -675816337927123094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun healthbar_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a7c13d339c6cc50800000000000000
+      internalID: 6685251921300454045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun healthbar_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e229311c12dc7e140800000000000000
+      internalID: 4748989876942377518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun healthbar_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147b58699ab593280800000000000000
+      internalID: -9063111991173466303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun healthbar_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 4
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee88fc2ea8b568c0800000000000000
+      internalID: -4006593235257880854
       vertices: []
       indices: 
       edges: []
@@ -151,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7a5c8d4d352004247b76ede8afa46a8b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      no health_0: -1518315197876410104
+      gun healthbar_0: 2712025151829518351
+      gun healthbar_1: -675816337927123094
+      gun healthbar_2: 6685251921300454045
+      gun healthbar_3: 4748989876942377518
+      gun healthbar_4: -9063111991173466303
+      gun healthbar_5: -4006593235257880854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
