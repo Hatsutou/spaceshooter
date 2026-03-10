@@ -6,14 +6,21 @@ public class Health : MonoBehaviour
     public int defaultHealthPoint;
     private int healthPoint;
     public System.Action onDead;
+    public System.Action onHealthChanged;
+    
 
-    private void Start() => healthPoint = defaultHealthPoint;
+    private void Start()
+    {
+        healthPoint = defaultHealthPoint;
+        onHealthChanged?.Invoke();
+    }
 
     public void TakeDamage(int damage)
     {
         if (healthPoint <= 0) return;
 
         healthPoint -= damage;
+        onHealthChanged?.Invoke();
         if (healthPoint <= 0) Die();
     }
 
