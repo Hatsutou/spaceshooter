@@ -4,7 +4,7 @@ public class Health : MonoBehaviour
 {
     public GameObject explosionPrefab;
     public int defaultHealthPoint;
-    private int healthPoint;
+    public int healthPoint;
     public System.Action onDead;
     public System.Action onHealthChanged;
     

@@ -2009,6 +2009,7 @@ MonoBehaviour:
   explosionPrefab: {fileID: 1587261729604890, guid: af630373a146e8e46ac5ad9b1598eaba,
     type: 3}
   defaultHealthPoint: 3
+  healthPoint: 0
 --- !u!1001 &1611445156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2736,6 +2737,7 @@ GameObject:
   - component: {fileID: 2042223205}
   - component: {fileID: 2042223207}
   - component: {fileID: 2042223206}
+  - component: {fileID: 2042223208}
   m_Layer: 5
   m_Name: HealthBarBg
   m_TagString: Untagged
@@ -2802,6 +2804,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042223204}
   m_CullTransparentMesh: 1
+--- !u!114 &2042223208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042223204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c7eb0bb2bde4344a108cd701608e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 616218790}
+  health: {fileID: 1523812278}
 --- !u!1 &2096653485
 GameObject:
   m_ObjectHideFlags: 0
